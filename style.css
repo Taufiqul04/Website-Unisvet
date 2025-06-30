@@ -1,0 +1,278 @@
+/* Reset dan Pengaturan Dasar */
+:root {
+    --primary-color: #0d47a1; /* Biru Tua khas IVET */
+    --secondary-color: #ffc107; /* Kuning/Emas */
+    --background-color: #f4f7f9;
+    --text-color: #333;
+    --light-text-color: #fff;
+    --card-bg: #ffffff;
+    --success-color: #28a745;
+    --danger-color: #dc3545;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+/* Header dan Navigasi */
+header {
+    background-color: var(--primary-color);
+    color: var(--light-text-color);
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    height: 50px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 25px;
+}
+
+header nav a {
+    color: var(--light-text-color);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+header nav a:hover {
+    color: var(--secondary-color);
+}
+
+/* Bagian Hero */
+.hero {
+    background: linear-gradient(rgba(13, 71, 161, 0.8), rgba(13, 71, 161, 0.8)), url('https://ivet.ac.id/wp-content/uploads/2022/12/gedung-ivet-1.jpg') no-repeat center center/cover;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: var(--light-text-color);
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero-text p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+/* Tombol */
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ffca2c;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    color: #fff;
+}
+.btn-secondary:hover {
+    background-color: #5a6268;
+}
+
+/* Konten Umum */
+.content-section {
+    padding: 60px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.content-section h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: var(--primary-color);
+}
+
+/* Program Studi */
+.prodi-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.prodi-card {
+    background: var(--card-bg);
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    border-left: 5px solid var(--primary-color);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.prodi-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+
+.prodi-card h3 {
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+/* Bagian Absensi */
+#login-section, #absensi-section {
+    max-width: 700px;
+    margin: 0 auto;
+    background: var(--card-bg);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.error-message {
+    color: var(--danger-color);
+    margin-top: 10px;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.user-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    background-color: #e7f3ff;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#course-list .course-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border: 1px solid #eee;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.course-details h5 {
+    font-size: 1.1rem;
+    color: var(--primary-color);
+}
+
+.absen-btn {
+    padding: 8px 16px;
+    background-color: var(--success-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.absen-btn:hover {
+    background-color: #218838;
+}
+
+.absen-btn:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+}
+
+.status {
+    font-style: italic;
+    color: #555;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #aaa;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Responsif */
+@media (max-width: 768px) {
+    header .container {
+        flex-direction: column;
+    }
+    header nav {
+        margin-top: 10px;
+    }
+    header nav ul li {
+        margin: 0 10px;
+    }
+    .hero-text h1 {
+        font-size: 2.2rem;
+    }
+    .content-section h2 {
+        font-size: 2rem;
+    }
+    .user-info {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .user-info #logout-btn {
+        margin-top: 10px;
+    }
+}
