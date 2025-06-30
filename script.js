@@ -18,19 +18,43 @@ document.addEventListener('DOMContentLoaded', function() {
             password: "040703", 
             name: "Muhammad Taufiqul Aziz", 
             courses: [
-                { code: "TIF201", name: "Dasar Pemrograman", time: "08:00 - 09:40", lecturer: "Dr. Ir. H. Setyo Purnomo, M.Pd" },
+                { code: "TIF201", name: "Pemrograman Dasar", time: "08:00 - 09:40", lecturer: "Dr. Ir. H. Setyo Purnomo, M.Pd" },
                 { code: "TIF203", name: "Jaringan Komputer", time: "10:00 - 11:40", lecturer: "Andi, S.Kom., M.Cs" },
                 { code: "MKU101", name: "Pendidikan Kewarganegaraan", time: "13:00 - 14:40", lecturer: "Dra. Siti Aminah, M.Hum" }
             ] 
         },
         "3322110015": { 
             password: "161002", 
-            name: "Mohammad Heri Moelyono",
+            name: "Mohammad Heri Mulyono",
             courses: [
-                { code: "PBI102", name: "Jaringan Komputer", time: "08:00 - 09:40", lecturer: "Lingga Kurnia Dhani M.Kom" },
-                { code: "PBI105", name: "Dasar Pemrograman", time: "10:00 - 11:40", lecturer: "Dr. Maria, S.S., M.Pd" }
+                { code: "PBI102", name: "Jaringan Komputer", time: "08:00 - 09:40", lecturer: "Lingga Kurnia Dhani, M.Kom" },
+                { code: "PBI105", name: "Pemrograman Dasar", time: "10:00 - 11:40", lecturer: "Dr. Maria, S.S., M.Pd" }
             ]
-        }
+        },
+        "3322110013": { 
+            password: "311004", 
+            name: "Alfonsius Joifan Sar",
+            courses: [
+                { code: "PBI102", name: "Jaringan Komputer", time: "08:00 - 09:40", lecturer: "Lingga Kurnia Dhani, M.Kom" },
+                { code: "PBI105", name: "Pemrograman Dasar", time: "10:00 - 11:40", lecturer: "Dr. Maria, S.S., M.Pd" }
+            ]
+        },
+        "3322110013": { 
+            password: "3322110022", 
+            name: "M Andika Arkhan Alfariz",
+            courses: [
+                { code: "PBI102", name: "Jaringan Komputer", time: "08:00 - 09:40", lecturer: "Lingga Kurnia Dhani, M.Kom" },
+                { code: "PBI105", name: "Pemrograman Dasar", time: "10:00 - 11:40", lecturer: "Dr. Maria, S.S., M.Pd" }
+            ]
+        },
+        "3322110013": { 
+            password: "3322110022", 
+            name: "Afan Dwi Kurniawan",
+            courses: [
+                { code: "PBI102", name: "Jaringan Komputer", time: "08:00 - 09:40", lecturer: "Lingga Kurnia Dhani, M.Kom" },
+                { code: "PBI105", name: "Pemrograman Dasar", time: "10:00 - 11:40", lecturer: "Dr. Maria, S.S., M.Pd" }
+            ]
+
     };
 
     // --- EVENT LISTENER UNTUK LOGIN ---
