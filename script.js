@@ -30,30 +30,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 { code: "PBI102", name: "Jaringan Komputer", time: "08:00 - 09:40", lecturer: "Lingga Kurnia Dhani, M.Kom" },
                 { code: "PBI105", name: "Pemrograman Dasar", time: "10:00 - 11:40", lecturer: "Dr. Maria, S.S., M.Pd" }
             ]
-        },
-        "3322110013": { 
-            password: "311004", 
-            name: "Alfonsius Joifan Sar",
-            courses: [
-                { code: "PBI102", name: "Jaringan Komputer", time: "08:00 - 09:40", lecturer: "Lingga Kurnia Dhani, M.Kom" },
-                { code: "PBI105", name: "Pemrograman Dasar", time: "10:00 - 11:40", lecturer: "Dr. Maria, S.S., M.Pd" }
-            ]
-        },
-        "3322110013": { 
-            password: "3322110022", 
-            name: "M Andika Arkhan Alfariz",
-            courses: [
-                { code: "PBI102", name: "Jaringan Komputer", time: "08:00 - 09:40", lecturer: "Lingga Kurnia Dhani, M.Kom" },
-                { code: "PBI105", name: "Pemrograman Dasar", time: "10:00 - 11:40", lecturer: "Dr. Maria, S.S., M.Pd" }
-            ]
-        },
-        "3322110013": { 
-            password: "3322110022", 
-            name: "Afan Dwi Kurniawan",
-            courses: [
-                { code: "PBI102", name: "Jaringan Komputer", time: "08:00 - 09:40", lecturer: "Lingga Kurnia Dhani, M.Kom" },
-                { code: "PBI105", name: "Pemrograman Dasar", time: "10:00 - 11:40", lecturer: "Dr. Maria, S.S., M.Pd" }
-            ]
+        }
 
     };
 
