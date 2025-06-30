@@ -23,9 +23,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 { code: "MKU101", name: "Pendidikan Kewarganegaraan", time: "13:00 - 14:40", lecturer: "Dra. Siti Aminah, M.Hum" }
             ] 
         },
-        "3322110015": { 
-            password: "161002", 
-            name: "Mohammad Heri Mulyono",
+        "3322110013": { 
+            password: "311004", 
+            name: "Alfonsius Joifan Sar",
             courses: [
                 { code: "PBI102", name: "Jaringan Komputer", time: "08:00 - 09:40", lecturer: "Lingga Kurnia Dhani, M.Kom" },
                 { code: "PBI105", name: "Pemrograman Dasar", time: "10:00 - 11:40", lecturer: "Dr. Maria, S.S., M.Pd" }
